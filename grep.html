@@ -16,7 +16,9 @@
             <h2 class="section-heading">Opciones:</h2>
             <pre class="code">
                 <code>
-                    -(opción1), --(nombre completo)         (Descrioción de lo que hace la opcion1)
+                    -l, --files-with-matches         Muestra el nombre de cada fichero de entrada que produciría alguna salida.
+                                                     La búsqueda se detendrá en la primera concordancia.
+                    
                     -(opcion2), --(nombre completo)         (Descrioción de lo que hace la opcion2)
                     -(opcion3), --(nombre completo)         (Descrioción de lo que hace la opcion3)
                 </code>
@@ -24,7 +26,10 @@
             <h2 class="section-heading">Ejemplos de uso:</h2>
             <pre class="code">
                 <code>
-                    (ejemplo de uso del comando con y sin las opciones)    (Breve explicación de lo que hace el ejemplo)
+                    --grep -l "palabra" *.txt      Busca la palabra "palabra" en todos los archivos de texto en el directorio actual (*.txt) y
+                                                   muestra solo los nombres de los archivos que contienen esa palabra,
+                                                   sin mostrar las líneas específicas que coinciden.
+                                                   
                     (ejemplo de uso del comando con y sin las opciones)    (Breve explicación de lo que hace el ejemplo)
                 </code>
             </pre>
