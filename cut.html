@@ -12,11 +12,13 @@
         </header>
         <section>
             <h2 class="section-heading">Descripción:</h2>
-            <p>El comando <code class="code">cut</code> (descripción del comando).</p>
+            <p>El comando cut en Linux se utiliza para extraer secciones concretas de archivos de texto, 
+                permitiendo así sólo mostrar secciones específicas. Puedes especificar los campos a cortar utilizando delimitadores como espacios, 
+                tabulaciones o caracteres específicos. Para seleccionar los delimitadores se utiliza la opción “-d”.</p>
             <h2 class="section-heading">Opciones:</h2>
             <pre class="code">
                 <code>
-                    -(opción1), --(nombre completo)         (Descrioción de lo que hace la opcion1)
+                    -f --fields         Selecciona los campos que quedan después de aplicar el cut. Los campos se indican después del “-f”.
                     -(opcion2), --(nombre completo)         (Descrioción de lo que hace la opcion2)
                     -(opcion3), --(nombre completo)         (Descrioción de lo que hace la opcion3)
                 </code>
@@ -24,7 +26,8 @@
             <h2 class="section-heading">Ejemplos de uso:</h2>
             <pre class="code">
                 <code>
-                    (ejemplo de uso del comando con y sin las opciones)    (Breve explicación de lo que hace el ejemplo)
+                    cut -d ‘;’ -f 1,3 datos.txt    El archivo datos.txt lo fracciona por los delimitadores “,”. A continuación, selecciona
+                                                   las fracciones 1 y 3 que ha creado.
                     (ejemplo de uso del comando con y sin las opciones)    (Breve explicación de lo que hace el ejemplo)
                 </code>
             </pre>
