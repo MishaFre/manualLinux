@@ -23,6 +23,8 @@
                     -c, --characters    Esta opción permite seleccionar caracteres específicos en lugar de campos delimitados. Se puede utilizar para 
                                         extraer partes específicas de cada línea en función de la posición de los caracteres en lugar de los campos delimitados.
 
+                    -b, --bytes         Seleciona solo los bites especificados. El Byte se aplica despues del -b
+
                     -(opcion3), --(nombre completo)         (Descrioción de lo que hace la opcion3)
                 </code>
             </pre>
@@ -35,6 +37,8 @@
                     cut -c 1-5 archivo.txt         En este ejemplo, el comando cut seleccionará los caracteres en las posiciones 1 a 5 de 
                                                    cada línea en el archivo archivo.txt. Esto significa que se extraerán los primeros cinco 
                                                    caracteres de cada línea y se mostrarán como resultado.
+
+                    cut -b 2 texto.txt             Mostrar el segundo Byte de cada una de las líneas del archivo texto.txt
                 </code>
             </pre>
         </section>
